@@ -53,12 +53,12 @@
       },
       "theme": {
         "dark": {
-          "gx_accent": { "h": 30, "s": 100, "l": 58 },
-          "gx_secondary_base": { "h": 0, "s": 0, "l": 3 }
+          "gx_accent": { "h": 29, "s": 100, "l": 56 },
+          "gx_secondary_base": { "h": 29, "s": 86, "l": 15 }
         },
         "light": {
-          "gx_accent": { "h": 28, "s": 98, "l": 46 },
-          "gx_secondary_base": { "h": 0, "s": 0, "l": 97 }
+          "gx_accent": { "h": 29, "s": 100, "l": 48 },
+          "gx_secondary_base": { "h": 29, "s": 52, "l": 28 }
         }
       },
       "shaders": {
