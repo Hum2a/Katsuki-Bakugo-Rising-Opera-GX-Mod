@@ -1,0 +1,9 @@
+// MHA Explosion Glow - warm orange tint (SkSL)
+uniform shader iChunk;
+
+// Orange pop on near-black UI - Bakugo style
+const float4 TINT = float4(1.1, 0.98, 0.88, 1);
+
+vec4 main(vec2 xy) {
+  return pow(iChunk.eval(xy), TINT);
+}
