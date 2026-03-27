@@ -1,6 +1,6 @@
 # Katsuki Bakugo: Rising — Opera GX mod
 
-Full **My Hero Academia**–style mod for Opera GX themed around **Katsuki Bakugo**: animated wallpaper, background music, sounds, **orange-on-black** hero-suit colours, shaders, and web modding for 21+ sites (same layout as the Izuku Midoriya: Rising pack).
+Full **My Hero Academia**–style mod for Opera GX themed around **Katsuki Bakugo**: animated wallpaper, background music, sounds, **orange-on-black** hero-suit colours, shaders, and **bucket web modding** (global layer + `sites-01`…`sites-06`, plus Opera + GX surface sheets).
 
 ## Structure
 
@@ -14,16 +14,19 @@ Katsuki Bakugo Rising/
 ├── sound/
 ├── keyboard/
 ├── shader/                # Explosion Glow, Howitzer Impact
-├── webmodding/            # theme, site CSS, micro-nuance, GX surfaces — see below
+├── webmodding/            # bakugo-rising.css, sites-01…06, bakugo-opera, bakugo-gx-surfaces
 ├── MOD_BROWSER.md       # What mods can/can’t style (address bar, etc.)
 └── scripts/
 ```
 
-## Extra polish (v1.1+)
+## Web modding (bucket layout)
 
-- **`micro-nuance.css`** — Injected on every modded site: orange/black **text selection**, **scrollbar** thumb, **`:focus-visible`** rings, **placeholder** tint. Does **not** change the native address bar (see [MOD_BROWSER.md](MOD_BROWSER.md)).
-- **`gx-surfaces.css`** — Bakugo styling on **GX web** tabs: `gx.games`, `create.gx.games`, `gx.me`, `store.gx.me`.
-- **`opera.css`** — Richer rules for **`*.opera.com`** (typography, links, form controls, code blocks).
+- **`bakugo-rising.css`** — All `https://` / `http://` tabs: explosion mist, links, selection, scrollbars, placeholders; defines legacy `--bakugo-*` tokens for Opera/GX sheets.
+- **`sites-01` … `sites-06`** — Google/YouTube, social, dev, shopping, media, productivity (broad URL lists like Ann / Shoto mods).
+- **`bakugo-opera.css`** — Extra rules for **`*.opera.com`**.
+- **`bakugo-gx-surfaces.css`** — GX web: `gx.games`, `create.gx.games`, `gx.me`, `store.gx.me`.
+
+Native address bar limits: [MOD_BROWSER.md](MOD_BROWSER.md).
 - **Wallpaper labels** — `manifest.json` → `wallpaper.*.text_color` / `text_shadow`: dark mode uses **orange titles** on a **black** shadow; light mode uses **near-black** text with a **soft orange** shadow.
 
 ## Assets
