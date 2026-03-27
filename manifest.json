@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Katsuki Bakugo: Rising",
   "description": "Full Katsuki Bakugo: Rising themed mod - animated wallpaper, Butterfly Effect background music, sounds, orange-and-black hero suit colours, shaders, and webmodding for 21+ popular sites (YouTube, Twitter, Reddit, Discord, GitHub, Netflix, Spotify, and more) with matching accents across the web",
-  "version": "1.1",
+  "version": "1.2.0",
   "icons": {
     "512": "Bakugo_Icon.png"
   },
